@@ -1,4 +1,4 @@
-pip install -r requirements.txt  # install
+pip install -r requirements.txt  # install requirements
 
 go to data/images directory and run the following command 
 
@@ -8,12 +8,11 @@ this code will split the image into 3 equal vertical parts.
 
 go to root directory and run the following command:
 
-python detect.py --weights yolov5s.pt  --classes 0 
+python detect.py --weights yolov5s.pt  --classes 0 # this means only detect people
 
 this command will be detect the people and count on each splitted photos
 
 the output will be on the runs/detect/exp#  directory 
-
 
 base repository for yolov5:
 
